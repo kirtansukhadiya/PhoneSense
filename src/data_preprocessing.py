@@ -14,5 +14,5 @@ ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), categorical_co
 X = np.array(ct.fit_transform(X))
 
 imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
-imputer.fit(X[:, 1:3])
-X[:, 1:3] = imputer.transform(X[:, 1:3])
+imputer.fit(X[:, 1:19])
+X[:, 1:19] = imputer.transform(X[:, 1:19])
