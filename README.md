@@ -1,2 +1,99 @@
-# PhoneSense
-This project applies data science and machine learning to predict smartphone addiction risk based on user behavior, screen time, and survey data. The goal is to identify whether a person falls into low, moderate, or high-risk categories of smartphone addiction.
+# Phonesense – Smartphone Addiction Prediction
+
+**Phonesense** is a machine learning project that predicts the **risk level of smartphone addiction** (Low / Moderate / High) based on user behavior and survey data. It helps in understanding phone usage patterns and identifying potential addiction risks.
+
+---
+
+## 📊 Dataset
+
+- **Source:** [Mobile_adicted.csv by Godwinv7 on GitHub](https://github.com/Godwinv7/ML-Based-Smartphone-Addiction-Prediction/blob/main/Mobile_adicted.csv)  
+- Features may include:
+  - Screen time
+  - App usage
+  - Phone usage during study/work hours
+  - Demographics (age, gender, etc.)
+  - Lifestyle and mental health indicators
+
+> ⚠️ **Note:** Make sure to download the dataset and place it in the `data/` folder.
+
+---
+
+## 🛠 Technology Stack
+
+- **Language:** Python  
+- **Libraries:** pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn  
+- **Optional:** Jupyter Notebook for exploratory data analysis (EDA)  
+
+---
+
+## 📁 Project Structure
+
+```bash
+Phonesense/
+│
+├── data/
+│   └── phonesense_dataset.csv
+│
+├── notebooks/
+│   └── EDA_and_Preprocessing.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── train_models.py
+│   ├── evaluate.py
+│   └── visualize.py
+│
+├── reports/
+│   └── analysis_report.pdf
+└── requirements.txt
+```
+
+---
+
+## 🚀 How to Use
+
+Clone the repository
+```bash
+git clone https://github.com/yourusername/phonesense.git
+cd phonesense
+```
+Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+- **Run individual scripts:**
+  - Preprocessing: ```bash python src/preprocessing.py```
+  - Train models: ```bash python src/train_models.py```
+  - Evaluate models: ```bash python src/evaluate.py```
+  - Visualize results: ```bash python src/visualize.py```
+
+---
+
+## 🧩 Pipeline Overview
+
+Load Data – Load CSV dataset using pandas.  
+Preprocessing – Handle missing values, encode categorical variables, normalize/standardize features.  
+Feature Engineering – Examples: average screen time, number of social media apps, usage during study hours.  
+Modeling – Train and test models: Logistic Regression, Random Forest, XGBoost.  
+Evaluation – Metrics: accuracy, precision, recall, F1-score; confusion matrix.  
+Visualization – Feature distributions, correlation heatmaps, model performance plots.  
+
+---
+
+## 📈 Goal
+
+Predict the risk level of smartphone addiction and gain insights into user behavior for digital wellness awareness.
+
+---
+
+## 📚 Credits
+
+- Dataset provided by Godwinv7 on [Mobile_adicted.csv by Godwinv7](https://github.com/Godwinv7/ML-Based-Smartphone-Addiction-Prediction/blob/main/Mobile_adicted.csv)
+- Python libraries used: pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn
+
+---
+
+## 📬 Contact
+
+Created by Kirtan Sukhadiya, Abhijeet Singh
