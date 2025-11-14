@@ -6,7 +6,7 @@
 
 ## 📊 Dataset
 
-- **Source:** [Mobile_adicted.csv by Godwinv7 on GitHub](https://github.com/Godwinv7/ML-Based-Smartphone-Addiction-Prediction/blob/main/Mobile_adicted.csv)  
+- **Source:** Kaggle 
 - Features may include:
   - Screen time
   - App usage
@@ -39,9 +39,11 @@ Phonesense/
 │
 ├── src/
 │   ├── preprocessing.py
-│   ├── train_models.py
-│   ├── evaluate.py
-│   └── visualize.py
+│   ├── Logistic_regression.py
+│   ├── Random_forest.py
+│   ├── XGBoost.py
+│   ├── evaluate_model.py
+│   └── visualize_results.py
 │
 ├── reports/
 │   └── analysis_report.pdf
@@ -89,7 +91,7 @@ Predict the risk level of smartphone addiction and gain insights into user behav
 
 ## 📚 Credits
 
-- Dataset provided by Godwinv7 on [Mobile_adicted.csv by Godwinv7](https://github.com/Godwinv7/ML-Based-Smartphone-Addiction-Prediction/blob/main/Mobile_adicted.csv)
+- Dataset provided by Kaggle
 - Python libraries used: pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn
 
 ---
