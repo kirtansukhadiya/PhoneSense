@@ -9,7 +9,6 @@ import joblib
 # Load dataset
 dataset = pd.read_csv('data/raw/phone_addiction_dataset.csv')
 dataset = dataset.drop(columns=['Name','Location','School_Grade','Parental_Control'])
-
 X = dataset.iloc[:, :-1]
 y = dataset.iloc[:, -1].astype(int)
 
