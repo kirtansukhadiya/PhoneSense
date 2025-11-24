@@ -1,5 +1,7 @@
 # Phonesense – Smartphone Addiction Prediction
 
+[Link text](https://huggingface.co/spaces/Peekaboo2803/phonesense)
+
 **Phonesense** is a machine learning project that predicts the **risk level of smartphone addiction** (Low / Moderate / High) based on user behavior and survey data. It helps in understanding phone usage patterns and identifying potential addiction risks.
 
 ---
