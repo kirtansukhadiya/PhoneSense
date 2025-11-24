@@ -58,7 +58,7 @@ Phonesense/
 
 Clone the repository
 ```bash
-git clone https://github.com/yourusername/phonesense.git
+git clone https://github.com/kirtansukhadiya/phonesense.git
 cd phonesense
 ```
 Install dependencies
